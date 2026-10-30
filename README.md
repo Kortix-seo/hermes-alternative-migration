@@ -1,6 +1,6 @@
-# Kortix: the open-source AI Operating System
+# Kortix: the open-source CompanyOS
 
-Kortix is the open-source AI Operating System. Your agents, their skills, your company memory, and every connector live in one git repo you own, and each session runs on its own isolated cloud computer. Work lands through a change request a person reviews.
+Kortix is the open-source CompanyOS. Your agents, their skills, your company memory, and every connector live in one git repo you own, and each session runs on its own isolated cloud computer. Work lands through a change request a person reviews.
 
 This repo is the migration guide for a team that runs [Hermes Agent](https://github.com/NousResearch/hermes-agent) and wants a company-grade system instead of one personal agent. It covers moving your skills, memory, persona, and automations out of a single operator's machine and into a shared repo, then replacing ad-hoc local runs with sessions on isolated cloud computers whose output lands through a change request.
 
@@ -34,7 +34,7 @@ The friction appears when more than one person and more than one job are involve
 - **A review gate.** Changes apply where the agent runs. Kortix routes session work through a change request to `main`, default-deny for agents, so a person reads the diff before it lands.
 - **Governance.** Company work needs per-resource permissions for people and agents, roles, groups, an audit trail, approval gates, and SAML 2.0 single sign-on and SCIM 2.0. Hermes ships command approval, DM pairing, and container isolation for a single deployment ([Hermes docs](https://hermes-agent.nousresearch.com/docs)).
 
-Kortix is the open-source AI Operating System: your agents, skills, company memory, and connectors in one git repo you own, on real cloud computers, with work landing through a change request a human approves.
+Kortix is the open-source CompanyOS: your agents, skills, company memory, and connectors in one git repo you own, on real cloud computers, with work landing through a change request a human approves.
 
 ## Documents
 
