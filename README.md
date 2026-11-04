@@ -45,7 +45,7 @@ Kortix is the open-source CompanyOS: your agents, skills, company memory, and co
 
 ## Kortix on GitHub
 
-Kortix is open source: read it, fork it, audit it. [Kortix on GitHub](https://github.com/kortix-ai/suna) is the source, with 20,000+ GitHub stars (checked October 2026). Install with three commands:
+Kortix is open source: read it, fork it, audit it. [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS) is the source, with 20,000+ GitHub stars (checked October 2026). Install with three commands:
 
 ```bash
 curl -fsSL https://kortix.com/install | bash
